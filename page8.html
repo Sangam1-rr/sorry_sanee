@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forgive Me, My Love</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffafbd, #ffc3a0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 40px;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    button {
+      font-size: 22px;
+      padding: 12px 30px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .yes {
+      background-color: #ff4e50;
+      color: white;
+    }
+
+    .no {
+      background-color: #6c757d;
+      color: white;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>I'm So Sorry 💔</h1>
+  <p>I know I made a mistake, and I can't stop thinking about it. You mean the world to me. Please forgive me, my love...</p>
+  <div>
+    <button class="yes" onclick="alert('You just made my world beautiful again and love you more 💖')">Yes, I Forgive You 💞</button>
+    <button class="no" onclick="window.location.href='page2.html'">No, Not Yet 😔</button>
+  </div>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="Be My Baby - The Ronettes (Lyrics)" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
